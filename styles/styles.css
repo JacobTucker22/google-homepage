@@ -10,14 +10,14 @@ body, html {
     display: flex;
     float: right;
     align-content: center;
-    
+    padding-right: 16px;
 }
 .top-right img {
     opacity: 0.75;
 }
 .menubar {
     width: 100%;
-    padding-top: 15px;
+    padding-top: 12px;
 }
 .menubar a{
     color: black !important;
@@ -39,8 +39,8 @@ body, html {
     background-color:#005eff;
     color: white;
     font-weight: bold;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 13px;
+    padding-right: 13px;
 }
 
 #center-content {
@@ -152,16 +152,20 @@ body, html {
 .footer a {
     color: #5f6368;
     text-decoration: none;
-    padding-left: 27px;
+    padding-left: 23px;
 
 }
 
-.footer .bottom-left {
+.footer a:hover {
+    text-decoration: underline;
+}
 
+.footer .bottom-left {
+    padding-left: 7px;
     float: left;
 }
 
 .footer .bottom-right {
-    padding-right: 27px;
+    padding-right: 30px;
     float: right;
 }
